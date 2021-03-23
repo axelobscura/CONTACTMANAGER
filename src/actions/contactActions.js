@@ -22,7 +22,6 @@ export const deleteContact = id => async dispatch => {
       payload: id
     });
   }
-  
 }
 
 export const addContact = contact => async dispatch => {
