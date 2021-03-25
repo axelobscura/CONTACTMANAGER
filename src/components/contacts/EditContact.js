@@ -27,6 +27,7 @@ class EditContact extends Component {
   }
 
   onSubmit = e => {
+    
     e.preventDefault();
 
     const { name, email, phone } = this.state;
